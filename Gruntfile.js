@@ -280,10 +280,10 @@ module.exports = function (grunt) {
       dist: {
         files: [{
           src: [
-            'js/**/*.js',
-            'css/**/*.css',
-            'img/**/*.{gif,jpg,jpeg,png,svg,webp}',
-            'fonts/**/*.{eot*,otf,svg,ttf,woff}'
+            '<%= yeoman.dist %>/js/**/*.js',
+            '<%= yeoman.dist %>/css/**/*.css',
+            '<%= yeoman.dist %>/img/**/*.{gif,jpg,jpeg,png,svg,webp}',
+            '<%= yeoman.dist %>/fonts/**/*.{eot*,otf,svg,ttf,woff}'
           ]
         }]
       }
@@ -380,7 +380,7 @@ module.exports = function (grunt) {
     'uglify',
     'imagemin',
     'svgmin',
-    'filerev',
+    // 'filerev',
     'usemin',
     'htmlmin'
     ]);
