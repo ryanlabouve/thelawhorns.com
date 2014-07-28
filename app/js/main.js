@@ -1,11 +1,12 @@
+/* global $ */
 $(function() {
-	$('[data-trigger-modal="true"]').on("click", function(e) {
+	$('[data-trigger-modal="true"]').on('click', function(e) {
 		e.preventDefault();
 		$("#modal").fadeIn();
 	});
 
-	$('.close').on("click", function(e) {
+	$('.close').on('click', function(e) {
 		e.preventDefault();
-		$("#modal").fadeOut();
+		$('#modal').fadeOut();
 	});
 });
