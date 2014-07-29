@@ -1,4 +1,4 @@
-/* global $ */
+/* global $, skrollr */
 $(function() {
 	$('[data-trigger-modal="true"]').on('click', function(e) {
 		e.preventDefault();
