@@ -6,14 +6,17 @@
 
 h1 {
   font-family: $font-display;
+  font-size: 3em; 
+  color: $color-dark;
 }
 
 body, h2, h3, h4, h5, h6 {
   font-family: $font-body;
+  color: $color-dark;
 }
 
 .btn:link, .btn:visited {
-  background: #333;
+  background: $color-dark;
   color: white;
   padding: 0.5em 1.5em;
   border-radius: 3px;
@@ -24,14 +27,14 @@ body, h2, h3, h4, h5, h6 {
 }
 .btn:hover, .btn:active {
   background: #fff;
-  color: #333;
+  color: $color-dark;
 }
 
 .wrapper-content {
   text-align: center;
   background: $color-primary;
-  padding-top: 1em;
-  padding-bottom: 2em;
+  padding-top: 2em;
+  padding-bottom: 5em;
 }
 
 img {
@@ -47,12 +50,15 @@ img {
     padding: 0;
     display: inline-block;
     margin-right: 2em;
+    vertical-align: top;
     &:last-child {
       margin-right: 0;
     }
   }
 }
-
+.list-inline {
+  @include list-inline;
+}
 .wrapper-jumbotron {
   position: relative;
   img {

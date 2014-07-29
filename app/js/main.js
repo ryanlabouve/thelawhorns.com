@@ -10,3 +10,5 @@ $(function() {
 		$('#modal').fadeOut();
 	});
 });
+
+var s = skrollr.init();
