@@ -30,6 +30,15 @@ $(function() {
 										.setTween(tween2)
 										.addTo(controller);
 
+
+	// Keleigh Upside Down
+	var tween3 = TweenMax.fromTo("#g_2 img", 0.5,
+								{ "margin-top": "0px"},
+								{ "margin-top": "-200px"}
+							);
+	var scene3 = new ScrollScene({triggerElement: "#g_2", duration: 300})
+										.setTween(tween3)
+										.addTo(controller);
 	// Use this to debug
 	// scene.addIndicators();
 });
