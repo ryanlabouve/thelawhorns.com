@@ -31,10 +31,9 @@ $(function() {
 										.addTo(controller);
 
 
-	// Keleigh Upside Down
-	var tween3 = TweenMax.fromTo("#g_2 img", 0.5,
+	var tween3 = TweenMax.fromTo("#g_2 img", 1,
 								{ "margin-top": "0px"},
-								{ "margin-top": "-200px"}
+								{ "margin-top": "-300px"}
 							);
 	var scene3 = new ScrollScene({triggerElement: "#g_2", duration: 300})
 										.setTween(tween3)
@@ -43,3 +42,17 @@ $(function() {
 	// scene.addIndicators();
 });
 
+$(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 1000);
+        return false;
+      }
+    }
+  });
+});
