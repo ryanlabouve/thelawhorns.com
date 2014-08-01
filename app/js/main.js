@@ -27,7 +27,7 @@ $(function() {
 								{ "margin-top": "-200px"}
 							);
 	var scene2 = new ScrollScene({triggerElement: "#g_1", duration: 300})
-										.setTween(tween)
+										.setTween(tween2)
 										.addTo(controller);
 
 	// Use this to debug
