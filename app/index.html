@@ -33,56 +33,24 @@ title: Your New Jekyll Site
 		<h1>The Party</h1>
 		<div class="row">
 			<div class="gals xl-24-12 lg-12-6">
-				<div class="person gal best-man bride">
-					<h3>Keleigh Maddox</h3>
-				</div>		
-				<div class="person gal best-man">
-					<h3>Christina Haddad</h3>
+			{% for girl in site.data.girls %}
+				<div class="person {{ girl.classes }}">
+					<div class="img-wrapper">
+						<img src="{{ girl.img }}" alt="">
+					</div>
+					<h3>{{ girl.name }}</h3>
 				</div>
-				<div class="person gal">
-					<h3>Shelby Edmoundson</h3>
-				</div>
-				<div class="person gal">
-					<h3>Bethanie Fiess</h3>
-				</div>
-				<div class="person gal">
-					<h3>Gracie Lawhorn</h3>
-				</div>
-				<div class="person gal">
-					<h3>Christine woods</h3>
-				</div>
-				<div class="person gal">
-					<h3>Amy Geron</h3>
-				</div>
-				<div class="person gal">
-					<h3>Kaci Rust</h3>
-				</div>
+			{% endfor %}	
 			</div>
 			<div class="guys xl-24-12 lg-12-6">
-				<div class="person guy groom">
-					<h3>Eric Lawhorn</h3>
+			{% for guy in site.data.guys %}
+				<div class="person {{ guy.classes }}">
+					<div class="img-wrapper">
+						<img src="{{ guy.img }}" alt="">
+					</div>
+					<h3>{{ guy.name }}</h3>
 				</div>
-				<div class="person guy best-man">
-					<h3>Jacob Lawhorn</h3>
-				</div>
-				<div class="person guy">
-					<h3>Jon Crump</h3>
-				</div>
-				<div class="person guy">
-					<h3>John Nettles</h3>
-				</div>
-				<div class="person guy">
-					<h3>Sydney Sexton</h3>
-				</div>
-				<div class="person guy">
-					<h3>Jordan Smith</h3>
-				</div>
-				<div class="person guy">
-					<h3>Derek Ybarra</h3>
-				</div>
-				<div class="person guy">
-					<h3>Lee irwin</h3>
-				</div>
+			{% endfor %}	
 			</div>			
 		</div>
 

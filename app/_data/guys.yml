@@ -1,0 +1,31 @@
+- name: Eric Lawhorn
+  img: img/boys/JordanSmith.jpg
+  classes: guy groom
+
+- name: Jacob Lawhorn
+  img: img/boys/JacobLawhorn.jpg
+  classes: guy
+
+- name: Jon Crump
+  img: img/boys/JonCrump.jpg
+  classes: guy
+
+- name: Derek Ybarra
+  img: img/boys/DerekYbarra.jpg
+  classes: guy
+
+- name: Lee Irwin
+  img: img/boys/LeeIrwin.jpg
+  classes: guy
+
+- name: Jordan Smith
+  img: img/boys/JordanSmith.jpg
+  classes: guy
+
+- name: Sydney Sexton
+  img: img/boys/SydneySexton.jpg
+  classes: guy
+
+- name: John Nettles
+  img: img/boys/JohnNettles.jpg
+  classes: guy
