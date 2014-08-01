@@ -4,6 +4,11 @@
 
 @import "vars";
 
+body {
+  max-width: 1200px;
+  margin: auto;
+  background: #333;
+}
 h1 {
   font-family: $font-display;
   font-size: 3em; 
@@ -66,13 +71,18 @@ img {
   }
   .image {
     position: absolute;
-    right: 10%;
-    top: 45%;
-    width: 35%;
+    right: 1%;
+    top: 25%;
+    width: 50%;
     height: auto;
   }
 }
 
+.container-nav {
+  box-shadow: 5px 0 15px rgba(0,0,0,0.1), -5px 0 15px rgba(0,0,0,0.1);
+  border-right: 1px solid rgba(255,255,255,0.05);
+  border-left: 1px solid rgba(255,255,255,0.05);
+}
 .wrapper-nav {
   background: #333;
   text-align: center;
@@ -154,4 +164,9 @@ img {
   img {
     width: 80%;
   }
+}
+
+#g_1 {
+  max-height: 600px;
+  overflow: hidden;
 }
