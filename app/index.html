@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Your New Jekyll Site
+title: The Lawhorns Wedding
 ---
 <div class="wrapper wrapper-jumbotron" id="home">
 	<div class="container container-jumbotron">
@@ -18,9 +18,10 @@ title: Your New Jekyll Site
 <div class="wrapper wrapper-our-story wrapper-content">
 	<div class="container container-our-story" id="our-wedding">
 		<h1>Our Wedding</h1>
-		<h2>We're Getting Married</h2>
-		<p>On new years day in dobisnson texas</p>
-		<p>Some more words blah blah blah</p>
+		<h2>On new years day in dobisnson texas</h2>
+<p>The wedding will be held at Olde Dobbin Station, located a little more than an hour from Houston and halfway between Conroe and Navasota.</p>
+
+<p>Service will start at 5:30 (sunset) and reception will follow immediately.</p>
 	</div>
 </div>
 <div class="wrapper wrapper-image" id="g_1">
@@ -39,19 +40,25 @@ title: Your New Jekyll Site
 						<img src="{{ girl.img }}" alt="">
 					</div>
 					<h3>{{ girl.name }}</h3>
+					<p>{{girl.sub}}</p>
+					<p class="quote">{{girl.quote}}</p>
 				</div>
 			{% endfor %}	
 			</div>
-			<div class="guys xl-24-12 lg-12-6">
+		</div>
+		<div class="row">
 			{% for guy in site.data.guys %}
+			<div class="guys xl-24-6 lg-12-4">
 				<div class="person {{ guy.classes }}">
 					<div class="img-wrapper">
 						<img src="{{ guy.img }}" alt="">
 					</div>
-					<h3>{{ guy.name }}</h3>
+					<h3>{{ guy.name }}</h3> 
+					<p>{{guy.sub}}</p>
+					<div class="quote">{{guy.quote}}</div>
 				</div>
-			{% endfor %}	
 			</div>			
+			{% endfor %}	
 		</div>
 
 
@@ -65,6 +72,11 @@ title: Your New Jekyll Site
 <div class="wrapper wrapper-details wrapper-content" id="details">
 	<div class="container container-details">
 		<h1>Details</h1>
+		<p>Service will start at 5:30 (sunset) and reception will follow immediately.</p>
+
+		<p>Please eat before you get here! We will have snacks, desserts, and drinks available while you dance like a fool to our killer Spotify playlist.</p>
+
+		<p>Although we anticipate people wanting to just go home afterwards, if you live too far we will have a block of rooms reserved at a hotel in Conroe. Just mention that you are with the Lawhorn Wedding.</p>
 	</div>
 </div>
 <div class="wrapper wrapper-image" id="g_3">

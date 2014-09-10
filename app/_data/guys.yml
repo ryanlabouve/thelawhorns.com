@@ -1,31 +1,89 @@
-- name: Eric Lawhorn
-  img: img/boys/JordanSmith.jpg
-  classes: guy groom
+- name: Eric and Keleigh
+  img: img/erickeleigh.jpg
+  classes: girl
+  sub: Bride & Groom
+  quote: Some quote for the bride and groom
+
+- name: Christina Haddad
+  img: img/girls/ChristinaHaddad.jpg
+  classes: girl
+  sub: Maid of Honnor
+  quote: The only time I set the bar low is for limbo.
+
+- name: Shelby Edmoundson
+  img: img/girls/ShelbyEdmoundson.jpg
+  classes: girl
+  sub: Bridesmaid
+  quote: I don't know much about being a millionaire, but I'll bet I'd be a darling at it. – Dorothy Parker
+
+- name: Gracie Lawhorn
+  img: img/girls/GracieLawhorn.jpg
+  classes: girl
+  sub: Bridesmaid
+  quote: I'm not saying I'm Batman, I'm just saying that nobody has seen me and Batman in a room together.
+
+- name: Bethanie Fiess
+  img: img/girls/BethanieFiess.jpg
+  classes: girl
+  sub: Bridesmaid
+  quote: She once parallel parked a train. Mosquitos don't bite her out of respect. She's the most interesting woman in the world.
+
+- name: Amy Geron
+  img: img/girls/AmyGeron.jpg
+  classes: girl
+  sub: Bridesmaid
+  quote: My dream job is probably still to be a Movie Surfer for the Disney Channel.
+
+- name: Christine Woods
+  img: img/girls/ChristineWoods.jpg
+  classes: girl
+  sub: Bridesmaid
+  quote: I definitely could have made it as an otter.
+
+- name: Kaci Rust
+  img: img/girls/KaciRust.jpg
+  classes: girl
+  sub: Bridesmaid
+  quote: She jumps like the wind.
 
 - name: Jacob Lawhorn
   img: img/boys/JacobLawhorn.jpg
   classes: guy
+  sub: Best Man
+  quote: I'm not always the best man, but when I am, I prefer Eric and Keleigh's wedding.
 
 - name: Jon Crump
   img: img/boys/JonCrump.jpg
   classes: guy
+  sub: Groomsman
+  quote: First things first, they da realest.
 
 - name: Derek Ybarra
   img: img/boys/DerekYbarra.jpg
   classes: guy
+  sub: Groomsman
+  quote: Great people talk about ideas. Average people talk about things. Small people talk about other people.
 
 - name: Lee Irwin
   img: img/boys/LeeIrwin.jpg
   classes: guy
+  sub: Groomsman
+  quote: Man I have to make popsicles all day. I have all these ingredients that if I don't use them today they will go bad.
 
 - name: Jordan Smith
   img: img/boys/JordanSmith.jpg
   classes: guy
+  sub: Groomsman
+  quote: My favorite day of the year is $1 chili-cheese coney day at Sonic.
 
 - name: Sydney Sexton
   img: img/boys/SydneySexton.jpg
   classes: guy
+  sub: Groomsman
+  quote: That wasn't your best. – Keleigh Maddox
 
 - name: John Nettles
   img: img/boys/JohnNettles.jpg
   classes: guy
+  sub: Groomsman
+  quote: The only time I set the bar low is for limbo.

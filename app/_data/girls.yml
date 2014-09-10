@@ -1,31 +1,5 @@
-- name: Keleigh Maddox
-  img: img/boys/JordanSmith.jpg
+- name: Eric and Keleigh
+  img: img/erickeleigh.jpg
   classes: girl groom
-
-- name: Christina Haddad
-  img: img/girls/ChristinaHaddad.jpg
-  classes: girl
-
-- name: Shelby Edmoundson
-  img: img/girls/ShelbyEdmoundson.jpg
-  classes: girl
-
-- name: Gracie Lawhorn
-  img: img/girls/GracieLawhorn.jpg
-  classes: girl
-
-- name: Bethanie Fiess
-  img: img/girls/BethanieFiess.jpg
-  classes: girl
-
-- name: Amy Geron
-  img: img/girls/AmyGeron.jpg
-  classes: girl
-
-- name: Christine Woods
-  img: img/girls/ChristineWoods.jpg
-  classes: girl
-
-- name: Kaci Rust
-  img: img/girls/KaciRust.jpg
-  classes: girl
+  sub: Bride & Groom
+  quote: Some quote for the bride and groom
