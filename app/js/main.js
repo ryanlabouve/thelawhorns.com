@@ -37,18 +37,6 @@ $(function() {
 										.setTween(tween2)
 										.addTo(controller);
 
-
-	var tween3 = TweenMax.fromTo("#g_2 img", 1,
-								{ "margin-top": "0px"},
-								{ "margin-top": "-300px"}
-							);
-	var scene3 = new ScrollScene({
-                      triggerElement: "#g_2",
-                      duration: 300,
-                      triggerHook: 0
-                    })
-										.setTween(tween3)
-										.addTo(controller);
 	// Use this to debug
 	scene.addIndicators();
 });
