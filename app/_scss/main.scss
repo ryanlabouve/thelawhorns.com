@@ -154,7 +154,7 @@ img {
 
 .img-wrapper {
   img {
-    width: 30%;
+    width: 80%;
     border-radius: 50%;
     margin: auto;
   }
@@ -162,7 +162,7 @@ img {
 
 .groom {
   img {
-    width: 80%;
+    width: 90%;
   }
 }
 
@@ -179,3 +179,28 @@ img {
 .person {
   margin-bottom: 4em;
 }
+
+.person-tiny {
+  .quote {
+    display: none;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .person-tiny {
+    .quote {
+      display: block;
+      margin-bottom: 5em;
+    }
+  }
+  .hero-row {
+    display: none; 
+  }
+}
+.sub {
+  margin-top: -1em;
+}
+
+.quote-info {
+  font-size: 150%;
+}
+
