@@ -38,7 +38,7 @@ $(function() {
 										.addTo(controller);
 
 	// Use this to debug
-	scene.addIndicators();
+	// scene.addIndicators();
 });
 
 $(function() {
