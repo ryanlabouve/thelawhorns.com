@@ -11,14 +11,56 @@ body {
 }
 h1 {
   font-family: $font-display;
-  font-size: 3em; 
+  font-size: 4em; 
   color: $color-dark;
+  margin-bottom: 0;
 }
 
 body, h2, h3, h4, h5, h6 {
   font-family: $font-body;
   color: $color-dark;
 }
+
+h2 {
+  font-size: 1.7em;
+}
+p {
+  font-size: 1.3em;
+  line-height: 1.6em;
+
+}
+
+.container-our-story {
+  padding: 0 30%;
+}
+@media only screen and (max-width: 1200px) {
+  .container-our-story {
+    padding: 0 20%;
+  }
+}
+@media only screen and (max-width: 760px) {
+  .container-our-story {
+    padding: 0 10%;
+  }
+}
+
+.container-registry {
+  h1 {
+    margin-bottom: 0.5em;
+  }
+  li {
+    margin-bottom: 2em !important;
+  }
+}
+
+@media only screen and (max-width: 760px) {
+.container-registry {
+  li {
+    margin-right: 0em !important;
+  }
+}
+}
+
 
 .btn:link, .btn:visited {
   background: $color-dark;
@@ -196,6 +238,11 @@ img {
     display: none; 
   }
 }
+// TODO: show this
+.hero-row {
+  display: none;
+}
+
 .sub {
   margin-top: -1em;
 }
