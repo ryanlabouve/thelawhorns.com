@@ -1,5 +1,17 @@
 - name: Eric and Keleigh
   img: img/erickeleigh.jpg
-  classes: girl groom
+  classes: girl
   sub: Bride & Groom
   quote: Some quote for the bride and groom
+
+- name: Christina Haddad
+  img: img/girls/ChristinaHaddad.jpg
+  classes: girl
+  sub: Maid of Honor
+  quote: The only time I set the bar low is for limbo.
+
+- name: Jacob Lawhorn
+  img: img/boys/JacobLawhorn.jpg
+  classes: guy
+  sub: Best Man
+  quote: I'm not always the best man, but when I am, I prefer Eric and Keleigh's wedding.

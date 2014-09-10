@@ -18,14 +18,12 @@ title: The Lawhorns Wedding
 <div class="wrapper wrapper-our-story wrapper-content">
 	<div class="container container-our-story" id="our-wedding">
 		<h1>Our Wedding</h1>
-		<h2>On new years day in dobisnson texas</h2>
+		<h2>On new years day in Dobbin Texas</h2>
 		<p>The wedding will be held at Olde Dobbin Station, located a little more than an hour from Houston and halfway between Conroe and Navasota.</p>
 
 		<p>Service will start at 4:00 (sunset) and reception will follow immediately.</p>
 
 		<p>Please eat before you get here! We will have snacks, desserts, and drinks available while you dance like a fool to our killer Spotify playlist.</p>
-
-		<p>Although we anticipate people wanting to just go home afterwards, if you live too far we will have a block of rooms reserved at a hotel in Conroe. Just mention that you are with the Lawhorn Wedding.</p>
 	</div>
 </div>
 <div class="wrapper wrapper-image" id="g_1">
@@ -53,6 +51,20 @@ title: The Lawhorns Wedding
 			{% endfor %}	
 		</div>
 		<div class="row">
+			{% for for girl in site.data.girls %}
+			<div class="guys xl-24-4 lg-12-3">
+				<div class="person person-tiny {{ guy.classes }}">
+					<div class="img-wrapper">
+						<img src="{{ girl.img }}" alt="">
+					</div>
+					<h3>{{ girl.name }}</h3> 
+					<p class="sub">{{girl.sub}}</p>
+					<div class="quote">{{girl.quote}}</div>
+				</div>
+			</div>			
+			{% endfor %}	
+		</div>
+		<div class="row">
 			{% for guy in site.data.guys %}
 			<div class="guys xl-24-4 lg-12-3">
 				<div class="person person-tiny {{ guy.classes }}">
@@ -66,8 +78,6 @@ title: The Lawhorns Wedding
 			</div>			
 			{% endfor %}	
 		</div>
-
-
 	</div>
 </div>
 <div class="wrapper wrapper-image" id="g_3">
