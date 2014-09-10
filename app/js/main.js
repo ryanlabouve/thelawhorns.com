@@ -17,16 +17,23 @@ $(function() {
 
 	// Logo Shrinking
 	var tween = TweenMax.to("#logo", 0.5, { scale: 0.5 });
-	var scene = new ScrollScene({triggerElement: "#nav1"})
-											.setTween(tween)
-											.addTo(controller);
+	var scene = new ScrollScene({
+                    triggerElement: "#nav1",
+                    triggerHook: 0
+                  })
+									.setTween(tween)
+									.addTo(controller);
 
 	// Keleigh Upside Down
-	var tween2 = TweenMax.fromTo("#g_1 img", 0.5,
+	var tween2 = TweenMax.fromTo("#g_1 img", 1,
 								{ "margin-top": "0px"},
-								{ "margin-top": "-200px"}
+								{ "margin-top": "-400px"}
 							);
-	var scene2 = new ScrollScene({triggerElement: "#g_1", duration: 300})
+	var scene2 = new ScrollScene({
+                      triggerElement: "#g_1",
+                      triggerHook: 0,
+                      duration: 300
+                    })
 										.setTween(tween2)
 										.addTo(controller);
 
@@ -35,11 +42,15 @@ $(function() {
 								{ "margin-top": "0px"},
 								{ "margin-top": "-300px"}
 							);
-	var scene3 = new ScrollScene({triggerElement: "#g_2", duration: 300})
+	var scene3 = new ScrollScene({
+                      triggerElement: "#g_2",
+                      duration: 300,
+                      triggerHook: 0
+                    })
 										.setTween(tween3)
 										.addTo(controller);
 	// Use this to debug
-	// scene.addIndicators();
+	scene.addIndicators();
 });
 
 $(function() {
