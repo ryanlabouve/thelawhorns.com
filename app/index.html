@@ -34,6 +34,11 @@ title: The Lawhorns Wedding
 <div class="wrapper wrapper-party wrapper-content" id="the-party">
 	<div class="container container-party">
 		<h1>The Party</h1>
+		<div class="row">
+			<div class="xl-24-6  lg-12-3"></div>
+			<div class="guys xl-24-12 lg-12-6"><div class="person person-tiny"><div class="img-wrapper"><img src="img/erickeleigh.jpg" alt=""></div><h3>Eric and Keleigh</h3><p class="sub">Bride &amp; Groom</p><div class="quote">Konami Code coming soon.</div></div></div>
+			<div class="xl-24-6  lg-12-3"></div>
+		</div>
 		<div class="row hero-row">
 			{% for girl in site.data.girls %}
 				<div class="gals xl-24-12 lg-12-6">
@@ -51,8 +56,9 @@ title: The Lawhorns Wedding
 			{% endfor %}
 		</div>
 		<div class="row">
+		<div class="xl-24-4  lg-12-2"></div>
 			{% for for girl in site.data.girls %}
-			<div class="guys xl-24-4 lg-12-3">
+			<div class="guys xl-24-8 lg-12-4">
 				<div class="person person-tiny {{ guy.classes }}">
 					<div class="img-wrapper">
 						<img src="{{ girl.img }}" alt="">
@@ -63,6 +69,7 @@ title: The Lawhorns Wedding
 				</div>
 			</div>
 			{% endfor %}
+			<div class="xl-24-4  lg-12-2"></div>
 		</div>
 		<div class="row">
 			{% for guy in site.data.guys %}

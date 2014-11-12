@@ -1,8 +1,8 @@
-- name: Eric and Keleigh
-  img: img/erickeleigh.jpg
-  classes: girl
-  sub: Bride & Groom
-  quote: Some quote for the bride and groom
+# - name: Eric and Keleigh
+#   img: img/erickeleigh.jpg
+#   classes: girl
+#   sub: Bride & Groom
+#   quote: Some quote for the bride and groom
 
 - name: Christina Haddad
   img: img/girls/ChristinaHaddad.jpg
